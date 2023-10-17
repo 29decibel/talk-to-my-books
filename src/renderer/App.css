@@ -1,0 +1,44 @@
+/*
+ * @NOTE: Prepend a `~` to css file paths that are in your node_modules
+ *        See https://github.com/webpack-contrib/sass-loader#imports
+ */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  position: relative;
+  /* color: white; */
+  height: 100vh;
+  /* background: linear-gradient(
+    200.96deg,
+    #fedc2a -29.09%,
+    #dd5789 51.77%,
+    #7a2c9e 129.35%
+  ); */
+
+
+
+}
+
+#root {
+  height: 100%;
+}
+
+.dragable-bar {
+  -webkit-user-select: none;
+  -webkit-app-region: drag;
+}
+
+/** provide a way to escape for my buttons in the drag bar area */
+.no-drag {
+  -webkit-app-region: no-drag;
+}
+
+.markdown-container pre {
+  font-size: 0.8em;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px 0;
+}

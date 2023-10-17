@@ -48,3 +48,4 @@ pnpm package
 - [faiss](https://github.com/facebookresearch/faiss)
 - [faiss-node](https://github.com/ewfian/faiss-node)
 - [electron-react-boilerplate](https://github.com/electron-react-boilerplate/electron-react-boilerplate)
+- [LangChain](https://js.langchain.com/docs/modules/data_connection/vectorstores/integrations/faiss)

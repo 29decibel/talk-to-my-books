@@ -8,6 +8,9 @@ There are lots of talk to your pdf services out there. But I really want one whi
 
 So I built this desktop app which users your own OpenAI API key. Storing the embeddings and questions all locally in plain (JSON) files.
 
+### Download
+
+[Release page](https://github.com/29decibel/talk-to-my-books/releases)
 
 ### Key ideas
 
